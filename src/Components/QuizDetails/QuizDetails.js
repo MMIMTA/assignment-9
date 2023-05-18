@@ -16,7 +16,9 @@ const QuizDetails = () => {
                 index={index}
                 question={question}
                  ></QuizCart>
+              
                  )
+              
            }
          
         </div>
