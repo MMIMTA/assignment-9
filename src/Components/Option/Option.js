@@ -1,9 +1,11 @@
 import React from 'react';
 
-const Option = ({option}) => {
+const Option = ({option,correctAnswer}) => {
+
     return (
         <div className='border rounded p-5'>
-            <li>{option}</li>
+            <input type="radio" value='option' name="option" /> {option} 
+           
         </div>
     );
 };
